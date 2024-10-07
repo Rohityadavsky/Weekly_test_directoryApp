@@ -119,7 +119,7 @@ function AddPerson() {
               <td>{person.age}</td>
               <td>
                 <button onClick={() => savePerson(index)}>Save</button>
-                <button onClick={() => deletePerson(index)}>Delete</button>
+                <button onClick={() => deletePerson(index)} className="del">Delete</button>
               </td>
             </tr>
           ))}
