@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.navbar{
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.app {
+  font-family: 'Courier New', Courier, monospace;;
+  padding: 20px;
+}
+
+.tab-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+table {
+ 
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  width: 90%;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.add-person, .retrieve-person {
+  margin-top: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.add-person-section, .retrieve-person-section {
+  margin-top: 20px;
+}
+
+.person-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.person-table th, .person-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.person-table input {
+  width: 100%;
+  padding: 5px;
+}
+
+.add-row-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-row-btn:hover {
+  background-color: #0056b3;
+}
+
+button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+input[type="text"], input[type="date"] {
+  padding: 5px;
+  width: 100%;
+}
+
+p {
+  color: red;
+}
+
+
+
+
+
+
